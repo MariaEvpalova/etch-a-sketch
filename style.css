@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.container {
+    display: grid;
+    gap: 1px 1px;
+    width: 720px;
+    height: 720px;
+}
+
+.item {
+    background-color:  ivory;
+    align-self: stretch;
+}
+
+.hover {
+    background-color: maroon;
+}
+
+.newGridButton {
+    width: 40%;
+    padding: 8px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+}
